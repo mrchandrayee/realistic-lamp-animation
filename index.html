@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <title>Realistic Lamp Animation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <h1>Realistic Lamp Animation</h1>
+
+    <section class="room" aria-label="Interactive hanging lamp">
+      <div class="wall"></div>
+      <div class="room-light"></div>
+      <div class="ambient-glow"></div>
+
+      <input type="checkbox" id="lamp-switch" aria-label="Toggle lamp">
+      <div class="hint">Click to interact</div>
+
+      <label for="lamp-switch" class="lamp-wrapper" title="Switch lamp on or off">
+        <div class="wire"></div>
+        <div class="shade">
+          <div class="bulb"></div>
+          <div class="shade-rim"></div>
+        </div>
+        <div class="beam"></div>
+      </label>
+
+      <div class="floor"></div>
+      <div class="floor-pool"></div>
+    </section>
+
+    <div class="code-caption">Comment "lamp" for code</div>
+    <section class="source-section" aria-label="HTML source shown in the video">
+      <pre><code>&lt;input type="checkbox" id="lamp-switch"&gt;
+&lt;div class="hint"&gt;Click to interact&lt;/div&gt;
+
+&lt;div class="room-light"&gt;&lt;/div&gt;
+
+&lt;label for="lamp-switch" class="lamp-wrapper"&gt;
+    &lt;div class="wire"&gt;&lt;/div&gt;
+    &lt;div class="shade"&gt;
+        &lt;div class="bulb"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="beam"&gt;&lt;/div&gt;
+&lt;/label&gt;
+
+&lt;div class="floor"&gt;&lt;/div&gt;</code></pre>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
